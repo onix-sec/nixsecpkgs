@@ -39,6 +39,7 @@ To use packages defined in this repository.
 - [keyt](https://github.com/deoktr/keyt)
 - [pof](https://github.com/deoktr/pof)
 - [pywhisker](https://github.com/ShutdownRepo/pywhisker)
+- [robotstester](https://github.com/p0dalirius/robotstester)
 
 ## TODO
 
