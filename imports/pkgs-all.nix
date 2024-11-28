@@ -17,6 +17,7 @@
         smartbrute = pkgs.callPackage ../pkgs/smartbrute { };
         smtp-user-enum = pkgs.callPackage ../pkgs/smtp-user-enum { };
         sprayhound = pkgs.callPackage ../pkgs/sprayhound { };
+        sublist3r = pkgs.callPackage ../pkgs/sublist3r { };
       };
     };
 }

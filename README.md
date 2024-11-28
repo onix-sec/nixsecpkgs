@@ -44,6 +44,7 @@ To use packages defined in this repository.
 - [smartbrute](https://github.com/ShutdownRepo/smartbrute)
 - [smtp-user-enum](https://github.com/cytopia/smtp-user-enum)
 - [sprayhound](https://github.com/Hackndo/sprayhound)
+- [sublist3r](https://github.com/aboul3la/Sublist3r)
 
 ## TODO
 
