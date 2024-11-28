@@ -19,6 +19,7 @@
         sprayhound = pkgs.callPackage ../pkgs/sprayhound { };
         sublist3r = pkgs.callPackage ../pkgs/sublist3r { };
         toutatis = pkgs.callPackage ../pkgs/toutatis { };
+        waybackurls = pkgs.callPackage ../pkgs/waybackurls { };
       };
     };
 }
