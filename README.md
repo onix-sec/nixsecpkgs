@@ -43,6 +43,7 @@ To use packages defined in this repository.
 - [shuffledns](https://github.com/projectdiscovery/shuffledns)
 - [smartbrute](https://github.com/ShutdownRepo/smartbrute)
 - [smtp-user-enum](https://github.com/cytopia/smtp-user-enum)
+- [sprayhound](https://github.com/Hackndo/sprayhound)
 
 ## TODO
 

@@ -16,6 +16,7 @@
         shuffledns = pkgs.callPackage ../pkgs/shuffledns { };
         smartbrute = pkgs.callPackage ../pkgs/smartbrute { };
         smtp-user-enum = pkgs.callPackage ../pkgs/smtp-user-enum { };
+        sprayhound = pkgs.callPackage ../pkgs/sprayhound { };
       };
     };
 }
