@@ -42,6 +42,7 @@ To use packages defined in this repository.
 - [robotstester](https://github.com/p0dalirius/robotstester)
 - [shuffledns](https://github.com/projectdiscovery/shuffledns)
 - [smartbrute](https://github.com/ShutdownRepo/smartbrute)
+- [smtp-user-enum](https://github.com/cytopia/smtp-user-enum)
 
 ## TODO
 
