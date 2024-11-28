@@ -38,6 +38,7 @@ To use packages defined in this repository.
 - [haiti](https://github.com/noraj/haiti)
 - [keyt](https://github.com/deoktr/keyt)
 - [pof](https://github.com/deoktr/pof)
+- [pywhisker](https://github.com/ShutdownRepo/pywhisker)
 
 ## TODO
 

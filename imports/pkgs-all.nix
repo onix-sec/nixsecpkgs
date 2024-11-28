@@ -11,6 +11,7 @@
         haiti = pkgs.callPackage ../pkgs/haiti { };
         keyt = pkgs.callPackage ../pkgs/keyt { };
         pof = pkgs.callPackage ../pkgs/pof { };
+        pywhisket = pkgs.callPackage ../pkgs/pywhisker { };
       };
     };
 }
