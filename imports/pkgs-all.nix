@@ -14,6 +14,7 @@
         pywhisket = pkgs.callPackage ../pkgs/pywhisker { };
         robotstester = pkgs.callPackage ../pkgs/robotstester { };
         shuffledns = pkgs.callPackage ../pkgs/shuffledns { };
+        smartbrute = pkgs.callPackage ../pkgs/smartbrute { };
       };
     };
 }
