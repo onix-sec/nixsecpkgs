@@ -32,6 +32,7 @@ To use packages defined in this repository.
 
 ## Packages
 
+- [go-windapsearch](https://github.com/ropnop/go-windapsearch)
 - [goldencopy](https://github.com/Dramelac/GoldenCopy)
 - [goshs](https://github.com/patrickhener/goshs)
 - [haiti](https://github.com/noraj/haiti)
