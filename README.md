@@ -4,6 +4,16 @@ This repository serves as a collection of cybersecurity tools build with Nix and
 
 ## Usage
 
+### Nix shell
+
+Open a Nix shell with a single tool in it:
+
+```bash
+nix shell --no-write-lock-file github:deoktr/nixsecpkgs#haiti
+```
+
+### Overlay
+
 To use packages defined in this repository.
 
 1. Add the repository as an input:
