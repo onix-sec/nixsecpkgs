@@ -32,6 +32,7 @@ To use packages defined in this repository.
 
 ## Packages
 
+- [goldencopy](https://github.com/Dramelac/GoldenCopy)
 - [goshs](https://github.com/patrickhener/goshs)
 - [haiti](https://github.com/noraj/haiti)
 - [keyt](https://github.com/deoktr/keyt)
