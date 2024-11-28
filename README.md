@@ -40,6 +40,7 @@ To use packages defined in this repository.
 - [pof](https://github.com/deoktr/pof)
 - [pywhisker](https://github.com/ShutdownRepo/pywhisker)
 - [robotstester](https://github.com/p0dalirius/robotstester)
+- [shuffledns](https://github.com/projectdiscovery/shuffledns)
 
 ## TODO
 

@@ -13,6 +13,7 @@
         pof = pkgs.callPackage ../pkgs/pof { };
         pywhisket = pkgs.callPackage ../pkgs/pywhisker { };
         robotstester = pkgs.callPackage ../pkgs/robotstester { };
+        shuffledns = pkgs.callPackage ../pkgs/shuffledns { };
       };
     };
 }
