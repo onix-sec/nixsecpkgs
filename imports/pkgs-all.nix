@@ -10,6 +10,7 @@
         goshs = pkgs.callPackage ../pkgs/goshs { };
         haiti = pkgs.callPackage ../pkgs/haiti { };
         keyt = pkgs.callPackage ../pkgs/keyt { };
+        pof = pkgs.callPackage ../pkgs/pof { };
       };
     };
 }
