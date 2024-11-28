@@ -45,6 +45,7 @@ To use packages defined in this repository.
 - [smtp-user-enum](https://github.com/cytopia/smtp-user-enum)
 - [sprayhound](https://github.com/Hackndo/sprayhound)
 - [sublist3r](https://github.com/aboul3la/Sublist3r)
+- [toutatis](https://github.com/megadose/toutatis)
 
 ## TODO
 
