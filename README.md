@@ -47,6 +47,7 @@ To use packages defined in this repository.
 - [sublist3r](https://github.com/aboul3la/Sublist3r)
 - [toutatis](https://github.com/megadose/toutatis)
 - [waybackurls](https://github.com/tomnomnom/waybackurls)
+- [webclientservicescanner](https://github.com/Hackndo/WebclientServiceScanner)
 
 ## TODO
 

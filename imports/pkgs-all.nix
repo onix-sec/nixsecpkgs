@@ -20,6 +20,7 @@
         sublist3r = pkgs.callPackage ../pkgs/sublist3r { };
         toutatis = pkgs.callPackage ../pkgs/toutatis { };
         waybackurls = pkgs.callPackage ../pkgs/waybackurls { };
+        webclientservicescanner = pkgs.callPackage ../pkgs/webclientservicescanner { };
       };
     };
 }
