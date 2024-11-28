@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    docopt (0.6.1)
+    haiti-hash (2.1.0)
+      docopt (~> 0.6)
+      paint (~> 2.2)
+    paint (2.3.0)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  haiti-hash
+
+BUNDLED WITH
+   2.5.22

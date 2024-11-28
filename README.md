@@ -32,6 +32,7 @@ To use packages defined in this repository.
 
 ## Packages
 
+- [haiti](https://github.com/noraj/haiti)
 - [keyt](https://github.com/deoktr/keyt)
 
 ## TODO
