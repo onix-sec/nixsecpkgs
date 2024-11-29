@@ -5,6 +5,7 @@
     { pkgs, ... }:
     {
       packages = {
+        awrbacs = pkgs.callPackage ../pkgs/awrbacs { };
         byp4xx = pkgs.callPackage ../pkgs/byp4xx { };
         carbon14 = pkgs.callPackage ../pkgs/carbon14 { };
         cmsmap = pkgs.callPackage ../pkgs/cmsmap { };
