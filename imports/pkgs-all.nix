@@ -5,6 +5,7 @@
     { pkgs, ... }:
     {
       packages = {
+        crackhound = pkgs.callPackage ../pkgs/crackhound { };
         go-windapsearch = pkgs.callPackage ../pkgs/go-windapsearch { };
         goldencopy = pkgs.callPackage ../pkgs/goldencopy { };
         goshs = pkgs.callPackage ../pkgs/goshs { };
