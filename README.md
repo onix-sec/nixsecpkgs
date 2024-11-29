@@ -48,6 +48,7 @@ To use packages defined in this repository.
 - [crackhound](https://github.com/trustedsec/CrackHound)
 - [dfscoerce](https://github.com/Wh04m1001/DFSCoerce)
 - [finduncommonshares](https://github.com/p0dalirius/pyFindUncommonShares)
+- [git-dumper](https://github.com/arthaud/git-dumper)
 - [go-windapsearch](https://github.com/ropnop/go-windapsearch)
 - [goldencopy](https://github.com/Dramelac/GoldenCopy)
 - [goshs](https://github.com/patrickhener/goshs)

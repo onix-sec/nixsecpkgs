@@ -11,6 +11,7 @@
         crackhound = pkgs.callPackage ../pkgs/crackhound { };
         dfscoerce = pkgs.callPackage ../pkgs/dfscoerce { };
         finduncommonshares = pkgs.callPackage ../pkgs/finduncommonshares { };
+        git-dumper = pkgs.callPackage ../pkgs/git-dumper { };
         go-windapsearch = pkgs.callPackage ../pkgs/go-windapsearch { };
         goldencopy = pkgs.callPackage ../pkgs/goldencopy { };
         goshs = pkgs.callPackage ../pkgs/goshs { };
