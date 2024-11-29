@@ -51,6 +51,7 @@ To use packages defined in this repository.
 - [git-dumper](https://github.com/arthaud/git-dumper)
 - [go-windapsearch](https://github.com/ropnop/go-windapsearch)
 - [goldencopy](https://github.com/Dramelac/GoldenCopy)
+- [gosecretsdump](https://github.com/C-Sto/gosecretsdump)
 - [goshs](https://github.com/patrickhener/goshs)
 - [haiti](https://github.com/noraj/haiti)
 - [keyt](https://github.com/deoktr/keyt)

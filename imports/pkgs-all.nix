@@ -14,6 +14,7 @@
         git-dumper = pkgs.callPackage ../pkgs/git-dumper { };
         go-windapsearch = pkgs.callPackage ../pkgs/go-windapsearch { };
         goldencopy = pkgs.callPackage ../pkgs/goldencopy { };
+        gosecretsdump = pkgs.callPackage ../pkgs/gosecretsdump { };
         goshs = pkgs.callPackage ../pkgs/goshs { };
         haiti = pkgs.callPackage ../pkgs/haiti { };
         keyt = pkgs.callPackage ../pkgs/keyt { };
