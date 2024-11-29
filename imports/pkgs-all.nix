@@ -13,6 +13,7 @@
         dfscoerce = pkgs.callPackage ../pkgs/dfscoerce { };
         finduncommonshares = pkgs.callPackage ../pkgs/finduncommonshares { };
         git-dumper = pkgs.callPackage ../pkgs/git-dumper { };
+        go-evilarc = pkgs.callPackage ../pkgs/go-evilarc { };
         go-windapsearch = pkgs.callPackage ../pkgs/go-windapsearch { };
         goldencopy = pkgs.callPackage ../pkgs/goldencopy { };
         gosecretsdump = pkgs.callPackage ../pkgs/gosecretsdump { };
