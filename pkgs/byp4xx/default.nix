@@ -18,7 +18,13 @@ buildGoModule {
     module byp4xx
     go 1.20
     EOF
+
+    # include the templates directory
+    mkdir -p $out/share/byp4xx
+    cp -r $src/templates/* $out/share/byp4xx
   '';
+
+  # TODO: fork/patch it and embed the templates into the executable
 
   meta = {
     description = "40X/HTTP bypasser in Go";
