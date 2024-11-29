@@ -17,6 +17,7 @@
         gosecretsdump = pkgs.callPackage ../pkgs/gosecretsdump { };
         goshs = pkgs.callPackage ../pkgs/goshs { };
         haiti = pkgs.callPackage ../pkgs/haiti { };
+        hashonymize = pkgs.callPackage ../pkgs/hashonymize { };
         keyt = pkgs.callPackage ../pkgs/keyt { };
         pof = pkgs.callPackage ../pkgs/pof { };
         pywhisket = pkgs.callPackage ../pkgs/pywhisker { };
