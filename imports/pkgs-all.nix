@@ -6,6 +6,7 @@
     {
       packages = {
         crackhound = pkgs.callPackage ../pkgs/crackhound { };
+        dfscoerce = pkgs.callPackage ../pkgs/dfscoerce { };
         go-windapsearch = pkgs.callPackage ../pkgs/go-windapsearch { };
         goldencopy = pkgs.callPackage ../pkgs/goldencopy { };
         goshs = pkgs.callPackage ../pkgs/goshs { };

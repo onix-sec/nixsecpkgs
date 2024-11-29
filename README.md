@@ -43,6 +43,7 @@ To use packages defined in this repository.
 ## Packages
 
 - [crackhound](https://github.com/trustedsec/CrackHound)
+- [dfscoerce](https://github.com/Wh04m1001/DFSCoerce)
 - [go-windapsearch](https://github.com/ropnop/go-windapsearch)
 - [goldencopy](https://github.com/Dramelac/GoldenCopy)
 - [goshs](https://github.com/patrickhener/goshs)
