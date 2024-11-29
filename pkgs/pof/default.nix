@@ -6,22 +6,14 @@
 
 python3Packages.buildPythonApplication rec {
   pname = "pof";
-  version = "1.4.1";
-  pyproject = true;
+  version = "1.4.2";
 
   src = fetchFromGitHub {
     owner = "deoktr";
     repo = "pof";
     rev = version;
-    hash = "sha256-E/9FJf9ospSuhAZskhxtrs+0SpvFuEZy1cI34+DXYDM=";
+    hash = "sha256-q59jiP0/A8VrxpHGc/84FEnjF2lM2fHQ/6wAqRK8imU=";
   };
-
-  # FIXME: doesn't work for some reason
-  # src = fetchPypi {
-  #   inherit version;
-  #   pname = "python-obfuscation-framework";
-  #   hash = "sha256-E/9FJf9ospSuhAZskhxtrs+0SpvFuEZy1cI34+DXYDM=";
-  # };
 
   build-system = with python3Packages; [
     setuptools
