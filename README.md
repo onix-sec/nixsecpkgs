@@ -47,6 +47,7 @@ To use packages defined in this repository.
 - [cmsmap](https://github.com/dionach/CMSmap)
 - [crackhound](https://github.com/trustedsec/CrackHound)
 - [dfscoerce](https://github.com/Wh04m1001/DFSCoerce)
+- [finduncommonshares](https://github.com/p0dalirius/pyFindUncommonShares)
 - [go-windapsearch](https://github.com/ropnop/go-windapsearch)
 - [goldencopy](https://github.com/Dramelac/GoldenCopy)
 - [goshs](https://github.com/patrickhener/goshs)

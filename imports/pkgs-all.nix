@@ -10,6 +10,7 @@
         cmsmap = pkgs.callPackage ../pkgs/cmsmap { };
         crackhound = pkgs.callPackage ../pkgs/crackhound { };
         dfscoerce = pkgs.callPackage ../pkgs/dfscoerce { };
+        finduncommonshares = pkgs.callPackage ../pkgs/finduncommonshares { };
         go-windapsearch = pkgs.callPackage ../pkgs/go-windapsearch { };
         goldencopy = pkgs.callPackage ../pkgs/goldencopy { };
         goshs = pkgs.callPackage ../pkgs/goshs { };
