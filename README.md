@@ -44,6 +44,7 @@ To use packages defined in this repository.
 
 - [byp4xx](https://github.com/lobuhi/byp4xx)
 - [carbon14](https://github.com/Lazza/Carbon14)
+- [cmsmap](https://github.com/dionach/CMSmap)
 - [crackhound](https://github.com/trustedsec/CrackHound)
 - [dfscoerce](https://github.com/Wh04m1001/DFSCoerce)
 - [go-windapsearch](https://github.com/ropnop/go-windapsearch)

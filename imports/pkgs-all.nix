@@ -7,6 +7,7 @@
       packages = {
         byp4xx = pkgs.callPackage ../pkgs/byp4xx { };
         carbon14 = pkgs.callPackage ../pkgs/carbon14 { };
+        cmsmap = pkgs.callPackage ../pkgs/cmsmap { };
         crackhound = pkgs.callPackage ../pkgs/crackhound { };
         dfscoerce = pkgs.callPackage ../pkgs/dfscoerce { };
         go-windapsearch = pkgs.callPackage ../pkgs/go-windapsearch { };
