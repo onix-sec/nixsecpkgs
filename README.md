@@ -58,6 +58,7 @@ To use packages defined in this repository.
 - [goshs](https://github.com/patrickhener/goshs)
 - [haiti](https://github.com/noraj/haiti)
 - [hashonymize](https://github.com/ShutdownRepo/hashonymize)
+- [jackit](https://github.com/insecurityofthings/jackit)
 - [keyt](https://github.com/deoktr/keyt)
 - [pof](https://github.com/deoktr/pof)
 - [pywhisker](https://github.com/ShutdownRepo/pywhisker)
