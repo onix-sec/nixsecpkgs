@@ -70,6 +70,7 @@ To use packages defined in this repository.
 - [toutatis](https://github.com/megadose/toutatis)
 - [waybackurls](https://github.com/tomnomnom/waybackurls)
 - [webclientservicescanner](https://github.com/Hackndo/WebclientServiceScanner)
+- [whatportis](https://github.com/ncrocfer/whatportis)
 
 ## TODO
 

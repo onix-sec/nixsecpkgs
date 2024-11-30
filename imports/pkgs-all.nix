@@ -33,6 +33,7 @@
         toutatis = pkgs.callPackage ../pkgs/toutatis { };
         waybackurls = pkgs.callPackage ../pkgs/waybackurls { };
         webclientservicescanner = pkgs.callPackage ../pkgs/webclientservicescanner { };
+        whatportis = pkgs.callPackage ../pkgs/whatportis { };
       };
     };
 }
