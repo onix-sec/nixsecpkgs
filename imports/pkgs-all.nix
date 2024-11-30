@@ -31,6 +31,7 @@
         sprayhound = pkgs.callPackage ../pkgs/sprayhound { };
         sublist3r = pkgs.callPackage ../pkgs/sublist3r { };
         toutatis = pkgs.callPackage ../pkgs/toutatis { };
+        uberfile = pkgs.callPackage ../pkgs/uberfile { };
         waybackurls = pkgs.callPackage ../pkgs/waybackurls { };
         webclientservicescanner = pkgs.callPackage ../pkgs/webclientservicescanner { };
         whatportis = pkgs.callPackage ../pkgs/whatportis { };

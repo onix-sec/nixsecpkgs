@@ -68,6 +68,7 @@ To use packages defined in this repository.
 - [sprayhound](https://github.com/Hackndo/sprayhound)
 - [sublist3r](https://github.com/aboul3la/Sublist3r)
 - [toutatis](https://github.com/megadose/toutatis)
+- [uberfile](https://github.com/ShutdownRepo/uberfile)
 - [waybackurls](https://github.com/tomnomnom/waybackurls)
 - [webclientservicescanner](https://github.com/Hackndo/WebclientServiceScanner)
 - [whatportis](https://github.com/ncrocfer/whatportis)
