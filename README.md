@@ -50,6 +50,7 @@ To use packages defined in this repository.
 - [dfscoerce](https://github.com/Wh04m1001/DFSCoerce)
 - [finduncommonshares](https://github.com/p0dalirius/pyFindUncommonShares)
 - [git-dumper](https://github.com/arthaud/git-dumper)
+- [gmsadumper](https://github.com/micahvandeusen/gMSADumper)
 - [go-bhtool](https://github.com/patrickhener/go-bhtool)
 - [go-evilarc](https://github.com/patrickhener/go-evilarc)
 - [go-windapsearch](https://github.com/ropnop/go-windapsearch)
