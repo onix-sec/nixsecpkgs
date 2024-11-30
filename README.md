@@ -57,6 +57,7 @@ To use packages defined in this repository.
 - [gosecretsdump](https://github.com/C-Sto/gosecretsdump)
 - [goshs](https://github.com/patrickhener/goshs)
 - [haiti](https://github.com/noraj/haiti)
+- [hakrevdns](https://github.com/hakluke/hakrevdns)
 - [hashonymize](https://github.com/ShutdownRepo/hashonymize)
 - [jackit](https://github.com/insecurityofthings/jackit)
 - [keyt](https://github.com/deoktr/keyt)

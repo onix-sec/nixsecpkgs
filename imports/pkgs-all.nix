@@ -20,6 +20,7 @@
         gosecretsdump = pkgs.callPackage ../pkgs/gosecretsdump { };
         goshs = pkgs.callPackage ../pkgs/goshs { };
         haiti = pkgs.callPackage ../pkgs/haiti { };
+        hakrevdns = pkgs.callPackage ../pkgs/hakrevdns { };
         hashonymize = pkgs.callPackage ../pkgs/hashonymize { };
         jackit = pkgs.callPackage ../pkgs/jackit { };
         keyt = pkgs.callPackage ../pkgs/keyt { };
