@@ -62,6 +62,7 @@ To use packages defined in this repository.
 - [pof](https://github.com/deoktr/pof)
 - [pywhisker](https://github.com/ShutdownRepo/pywhisker)
 - [robotstester](https://github.com/p0dalirius/robotstester)
+- [shellerator](https://github.com/ShutdownRepo/shellerator)
 - [shuffledns](https://github.com/projectdiscovery/shuffledns)
 - [smartbrute](https://github.com/ShutdownRepo/smartbrute)
 - [smtp-user-enum](https://github.com/cytopia/smtp-user-enum)
