@@ -43,6 +43,7 @@ To use packages defined in this repository.
 ## Packages
 
 - [awrbacs](https://github.com/lobuhi/awrbacs)
+- [buster](https://github.com/sham00n/buster)
 - [byp4xx](https://github.com/lobuhi/byp4xx)
 - [carbon14](https://github.com/Lazza/Carbon14)
 - [cmsmap](https://github.com/dionach/CMSmap)
