@@ -9,7 +9,7 @@ This repository serves as a collection of cybersecurity tools build with Nix and
 Open a Nix shell with a single tool in it:
 
 ```bash
-nix shell --no-write-lock-file github:deoktr/nixsecpkgs#haiti
+nix shell --no-write-lock-file github:onix-sec/nixsecpkgs#haiti
 ```
 
 ### Overlay
@@ -20,7 +20,7 @@ To use packages defined in this repository.
 
    ```nix
    inputs = {
-       nixsecpkgs.url = "github:deoktr/nixsecpkgs";
+       nixsecpkgs.url = "github:onix-sec/nixsecpkgs";
    };
    ```
 
@@ -82,7 +82,6 @@ To use packages defined in this repository.
 
 - Add test on packages
 - Add CI to build and test packages
-- Add cachix
 
 ## License
 
