@@ -40,6 +40,7 @@
         waybackurls = pkgs.callPackage ../pkgs/waybackurls { };
         webclientservicescanner = pkgs.callPackage ../pkgs/webclientservicescanner { };
         whatportis = pkgs.callPackage ../pkgs/whatportis { };
+        xsser = pkgs.callPackage ../pkgs/xsser { };
       };
     };
 }

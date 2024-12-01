@@ -77,6 +77,7 @@ To use packages defined in this repository.
 - [waybackurls](https://github.com/tomnomnom/waybackurls)
 - [webclientservicescanner](https://github.com/Hackndo/WebclientServiceScanner)
 - [whatportis](https://github.com/ncrocfer/whatportis)
+- [xsser](https://github.com/epsylon/xsser)
 
 ## TODO
 
