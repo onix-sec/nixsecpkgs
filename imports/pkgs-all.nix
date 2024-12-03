@@ -21,6 +21,7 @@
         goldencopy = pkgs.callPackage ../pkgs/goldencopy { };
         gosecretsdump = pkgs.callPackage ../pkgs/gosecretsdump { };
         goshs = pkgs.callPackage ../pkgs/goshs { };
+        gpp-decrypt = pkgs.callPackage ../pkgs/gpp-decrypt { };
         haiti = pkgs.callPackage ../pkgs/haiti { };
         hakrevdns = pkgs.callPackage ../pkgs/hakrevdns { };
         hashonymize = pkgs.callPackage ../pkgs/hashonymize { };

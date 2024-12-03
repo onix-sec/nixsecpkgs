@@ -58,6 +58,7 @@ To use packages defined in this repository.
 - [goldencopy](https://github.com/Dramelac/GoldenCopy)
 - [gosecretsdump](https://github.com/C-Sto/gosecretsdump)
 - [goshs](https://github.com/patrickhener/goshs)
+- [gpp-decrypt](https://github.com/t0thkr1s/gpp-decrypt)
 - [haiti](https://github.com/noraj/haiti)
 - [hakrevdns](https://github.com/hakluke/hakrevdns)
 - [hashonymize](https://github.com/ShutdownRepo/hashonymize)
