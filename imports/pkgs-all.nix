@@ -12,6 +12,7 @@
         cmsmap = pkgs.callPackage ../pkgs/cmsmap { };
         crackhound = pkgs.callPackage ../pkgs/crackhound { };
         dfscoerce = pkgs.callPackage ../pkgs/dfscoerce { };
+        entropy = pkgs.callPackage ../pkgs/entropy { };
         finduncommonshares = pkgs.callPackage ../pkgs/finduncommonshares { };
         git-dumper = pkgs.callPackage ../pkgs/git-dumper { };
         gmsadumper = pkgs.callPackage ../pkgs/gmsadumper { };

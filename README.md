@@ -49,6 +49,7 @@ To use packages defined in this repository.
 - [cmsmap](https://github.com/dionach/CMSmap)
 - [crackhound](https://github.com/trustedsec/CrackHound)
 - [dfscoerce](https://github.com/Wh04m1001/DFSCoerce)
+- [entropy](https://github.com/onix-sec/nixsecpkgs/blob/main/pkgs/entropy/src/entropy.py)
 - [finduncommonshares](https://github.com/p0dalirius/pyFindUncommonShares)
 - [git-dumper](https://github.com/arthaud/git-dumper)
 - [gmsadumper](https://github.com/micahvandeusen/gMSADumper)
