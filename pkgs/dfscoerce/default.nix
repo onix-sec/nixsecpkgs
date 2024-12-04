@@ -1,17 +1,13 @@
-{
-  python3Packages,
-  fetchFromGitHub,
-}:
+{ python3Packages, fetchFromGitHub }:
 
 python3Packages.buildPythonApplication rec {
   pname = "dfscoerce";
   version = "1.0.0";
-  commit = "e6f50871f17a881039afad9836a136db17d30d2b";
 
   src = fetchFromGitHub {
     owner = "Wh04m1001";
     repo = "DFSCoerce";
-    rev = commit;
+    rev = "e6f50871f17a881039afad9836a136db17d30d2b";
     hash = "sha256-QJIGZQCd+HTDJAx7FkPWxN/s2lZNe05eZzeUEC/NpRY=";
   };
 

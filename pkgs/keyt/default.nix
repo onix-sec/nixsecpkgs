@@ -7,7 +7,6 @@
 python3Packages.buildPythonApplication rec {
   pname = "keyt";
   version = "1.2.0";
-  pyproject = true;
 
   src = fetchPypi {
     inherit pname version;

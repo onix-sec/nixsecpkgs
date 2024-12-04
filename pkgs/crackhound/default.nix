@@ -7,12 +7,11 @@
 python3Packages.buildPythonApplication rec {
   pname = "crackhound";
   version = "3029bc2";
-  commit = "3029bc2b44ec767ea143663b3b8240402697aa00";
 
   src = fetchFromGitHub {
     owner = "trustedsec";
     repo = "crackhound";
-    rev = commit;
+    rev = "3029bc2b44ec767ea143663b3b8240402697aa00";
     hash = "sha256-oQh68HaB+JrPb1Rrz5H2nlqnSH466OYwu/ULoVg8B0w=";
   };
 

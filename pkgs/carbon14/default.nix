@@ -7,12 +7,11 @@
 python3Packages.buildPythonApplication rec {
   pname = "carbon14";
   version = "74305fc";
-  commit = "74305fc734bc6c6190f12d76ad42425dadda39d3";
 
   src = fetchFromGitHub {
     owner = "Lazza";
     repo = "Carbon14";
-    rev = commit;
+    rev = "74305fc734bc6c6190f12d76ad42425dadda39d3";
     hash = "sha256-GHTXgmPAlUD55/1MjRCqO+Ib9fuEUF1lqOXOPyD+5LM=";
   };
 

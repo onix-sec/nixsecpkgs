@@ -1,6 +1,5 @@
 {
   lib,
-  pkgs,
   python3Packages,
   fetchFromGitHub,
 }:
@@ -22,15 +21,20 @@ python3Packages.buildPythonApplication {
     wheel
   ];
 
-  dependencies =
-    (with python3Packages; [
-      requests
-      phonenumbers
-      pycountry
-    ])
-    ++ [
-      (pkgs.callPackage ./argparse.nix { })
-    ];
+  dependencies = with python3Packages; [
+    requests
+    phonenumbers
+    pycountry
+
+    (buildPythonApplication rec {
+      pname = "argparse";
+      version = "1.4.0";
+      src = fetchPypi {
+        inherit pname version;
+        hash = "sha256-YrCJpVvh2JSc0rx+DfC9254Cj678jDIDjMhIYq791uQ=";
+      };
+    })
+  ];
 
   meta = {
     description = "Toutatis is a tool that allows you to extract information from instagrams accounts such as e-mails, phone numbers and more";
