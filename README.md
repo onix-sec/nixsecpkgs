@@ -63,6 +63,7 @@ To use packages defined in this repository.
 - [haiti](https://github.com/noraj/haiti)
 - [hakrevdns](https://github.com/hakluke/hakrevdns)
 - [hashonymize](https://github.com/ShutdownRepo/hashonymize)
+- [homoglyph](https://github.com/onix-sec/nixsecpkgs/blob/main/pkgs/homoglyph/src/homoglyph.py)
 - [jackit](https://github.com/insecurityofthings/jackit)
 - [keyt](https://github.com/deoktr/keyt)
 - [pof](https://github.com/deoktr/pof)

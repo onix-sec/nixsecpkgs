@@ -26,6 +26,7 @@
         haiti = pkgs.callPackage ../pkgs/haiti { };
         hakrevdns = pkgs.callPackage ../pkgs/hakrevdns { };
         hashonymize = pkgs.callPackage ../pkgs/hashonymize { };
+        homoglyph = pkgs.callPackage ../pkgs/homoglyph { };
         jackit = pkgs.callPackage ../pkgs/jackit { };
         keyt = pkgs.callPackage ../pkgs/keyt { };
         pof = pkgs.callPackage ../pkgs/pof { };
