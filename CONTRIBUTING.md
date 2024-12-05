@@ -10,7 +10,7 @@ This file should explain everything you need to know about the project to get st
 Test package:
 
 ```bash
-nix-build -E 'with import <nixpkgs> {}; callPackage ./default.nix {}'
+nix shell .#your-app
 ```
 
 Then check the content of the `result/` directory.
