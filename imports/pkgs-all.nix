@@ -15,6 +15,7 @@
         entropy = pkgs.callPackage ../pkgs/entropy { };
         finduncommonshares = pkgs.callPackage ../pkgs/finduncommonshares { };
         git-dumper = pkgs.callPackage ../pkgs/git-dumper { };
+        gitlab-dump = pkgs.callPackage ../pkgs/gitlab-dump { };
         gmsadumper = pkgs.callPackage ../pkgs/gmsadumper { };
         go-bhtool = pkgs.callPackage ../pkgs/go-bhtool { };
         go-evilarc = pkgs.callPackage ../pkgs/go-evilarc { };

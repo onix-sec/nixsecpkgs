@@ -52,6 +52,7 @@ To use packages defined in this repository.
 - [entropy](https://github.com/onix-sec/nixsecpkgs/blob/main/pkgs/entropy/src/entropy.py)
 - [finduncommonshares](https://github.com/p0dalirius/pyFindUncommonShares)
 - [git-dumper](https://github.com/arthaud/git-dumper)
+- [gitlab-dump](https://github.com/deoktr/gitlab_dump)
 - [gmsadumper](https://github.com/micahvandeusen/gMSADumper)
 - [go-bhtool](https://github.com/patrickhener/go-bhtool)
 - [go-evilarc](https://github.com/patrickhener/go-evilarc)
