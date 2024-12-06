@@ -67,6 +67,7 @@ To use packages defined in this repository.
 - [homoglyph](https://github.com/onix-sec/nixsecpkgs/blob/main/pkgs/homoglyph/src/homoglyph.py)
 - [jackit](https://github.com/insecurityofthings/jackit)
 - [keyt](https://github.com/deoktr/keyt)
+- [kube-secrets-dump](https://github.com/deoktr/kube_secrets_dump)
 - [pof](https://github.com/deoktr/pof)
 - [pywhisker](https://github.com/ShutdownRepo/pywhisker)
 - [robotstester](https://github.com/p0dalirius/robotstester)

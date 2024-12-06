@@ -30,6 +30,7 @@
         homoglyph = pkgs.callPackage ../pkgs/homoglyph { };
         jackit = pkgs.callPackage ../pkgs/jackit { };
         keyt = pkgs.callPackage ../pkgs/keyt { };
+        kube-secrets-dump = pkgs.callPackage ../pkgs/kube-secrets-dump { };
         pof = pkgs.callPackage ../pkgs/pof { };
         pywhisket = pkgs.callPackage ../pkgs/pywhisker { };
         robotstester = pkgs.callPackage ../pkgs/robotstester { };
