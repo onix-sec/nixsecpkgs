@@ -68,6 +68,7 @@ To use packages defined in this repository.
 - [jackit](https://github.com/insecurityofthings/jackit)
 - [keyt](https://github.com/deoktr/keyt)
 - [kube-secrets-dump](https://github.com/deoktr/kube_secrets_dump)
+- [macro_pack](https://github.com/sevagas/macro_pack)
 - [pof](https://github.com/deoktr/pof)
 - [pywhisker](https://github.com/ShutdownRepo/pywhisker)
 - [robotstester](https://github.com/p0dalirius/robotstester)

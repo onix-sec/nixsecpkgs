@@ -1,0 +1,19 @@
+diff --git a/src/macro_pack.py b/src/macro_pack.py
+index 0ec3924..ff8ef85 100755
+--- a/src/macro_pack.py
++++ b/src/macro_pack.py
+@@ -337,9 +337,13 @@ def main(argv):
+     sys.exit(0)
+ 
+ 
+-if __name__ == '__main__':
++def main_cli():
+     # check if running from explorer, if yes restart from cmd line
+     running_from = psutil.Process(os.getpid()).parent().parent().name()
+     if running_from == 'explorer.exe':
+         os.system("cmd.exe /k \"%s\"" % utils.getRunningApp())
+     main(sys.argv[1:])
++
++
++if __name__ == '__main__':
++    main_cli()

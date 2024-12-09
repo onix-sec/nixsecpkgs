@@ -31,6 +31,7 @@
         jackit = pkgs.callPackage ../pkgs/jackit { };
         keyt = pkgs.callPackage ../pkgs/keyt { };
         kube-secrets-dump = pkgs.callPackage ../pkgs/kube-secrets-dump { };
+        macro_pack = pkgs.callPackage ../pkgs/macro_pack { };
         pof = pkgs.callPackage ../pkgs/pof { };
         pywhisket = pkgs.callPackage ../pkgs/pywhisker { };
         robotstester = pkgs.callPackage ../pkgs/robotstester { };
