@@ -19,7 +19,8 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) == 1 or sys.argv[1] == "--help":
-        print(f"usage: {sys.argv[0]} [file]")
+        print("Usage: entropy [file]")
+        print("Calculate the shannon entropy of a file.")
 
         if len(sys.argv) == 1:
             print("missing file path")

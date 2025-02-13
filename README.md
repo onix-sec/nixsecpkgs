@@ -2,6 +2,8 @@
 
 This repository serves as a collection of cybersecurity tools build with Nix and not present in [nixpkgs](https://github.com/NixOS/nixpkgs).
 
+If you want to know how to use them, go to [github.com/onix-sec](https://github.com/onix-sec/).
+
 ## Usage
 
 ### Nix shell
@@ -9,7 +11,7 @@ This repository serves as a collection of cybersecurity tools build with Nix and
 Open a Nix shell with a single tool in it:
 
 ```bash
-nix shell --no-write-lock-file github:onix-sec/nixsecpkgs#haiti
+nix shell --no-write-lock-file github:onix-sec/nixsecpkgs#entropy
 ```
 
 ### Overlay
@@ -89,6 +91,7 @@ To use packages defined in this repository.
 
 - Add test on packages
 - Add CI to build and test packages
+- Add script to check if new versions of apps are available
 
 ## License
 

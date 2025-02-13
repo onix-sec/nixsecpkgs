@@ -14,7 +14,7 @@ buildGoModule {
   vendorHash = "sha256-oNfxnhim3/c0q090evG2aIOyh44oJn+7PfMk176AVMk=";
 
   meta = {
-    description = "AWACS for RBAC. Tool for auditing CRUD permissions in Kubernetes' RBAC";
+    description = "AWACS for RBAC, tool for auditing CRUD permissions in Kubernetes' RBAC";
     homepage = "https://github.com/lobuhi/awrbacs";
     # No license
   };

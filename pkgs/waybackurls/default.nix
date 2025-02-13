@@ -17,7 +17,7 @@ buildGoModule rec {
   vendorHash = null;
 
   meta = {
-    description = "";
+    description = "Fetch all the URLs that the Wayback Machine knows about for a domain";
     homepage = "https://github.com/tomnomnom/waybackurls";
     # No license...
   };

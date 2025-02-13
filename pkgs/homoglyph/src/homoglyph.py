@@ -14,7 +14,8 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) == 1 or sys.argv[1] == "--help":
-        print(f"usage: {sys.argv[0]} [text] [amount?]")
+        print("Usage: homoglyph [text] [amount?]")
+        print("Generate homoglyph")
 
         if len(sys.argv) == 1:
             print("missing text")

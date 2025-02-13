@@ -117,7 +117,7 @@ python3Packages.buildPythonApplication rec {
 
   meta = {
     changelog = "https://github.com/sevagas/macro_pack/releases/tag/v${version}";
-    description = "tool used to automatize obfuscation and generation of Office documents, VB scripts, shortcuts, and other formats for pentest, demo, and social engineering assessments";
+    description = "Tool used to automatize obfuscation and generation of Office documents, VB scripts, shortcuts, and other formats for pentest, demo, and social engineering assessments";
     homepage = "https://github.com/sevagas/macro_pack";
     license = lib.licenses.apsl20;
   };

@@ -27,7 +27,7 @@ python3Packages.buildPythonApplication {
   ];
 
   meta = {
-    description = "Python tool to Check running WebClient services on multiple targets based on @leechristensen";
+    description = "Tool to Check running WebClient services on multiple targets based on @leechristensen";
     homepage = "https://github.com/Hackndo/WebclientServiceScanner";
     license = lib.licenses.mit;
   };

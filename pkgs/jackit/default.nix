@@ -68,7 +68,7 @@ python3Packages.buildPythonApplication {
   ];
 
   meta = {
-    description = "JackIt - Exploit Code for Mousejack";
+    description = "JackIt, exploit Code for Mousejack";
     homepage = "https://github.com/insecurityofthings/jackit";
 
     # No copy of the license
