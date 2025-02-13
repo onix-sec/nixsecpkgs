@@ -35,6 +35,7 @@
         pof = pkgs.callPackage ../pkgs/pof { };
         pywhisket = pkgs.callPackage ../pkgs/pywhisker { };
         robotstester = pkgs.callPackage ../pkgs/robotstester { };
+        shcln = pkgs.callPackage ../pkgs/shcln { };
         shellerator = pkgs.callPackage ../pkgs/shellerator { };
         shuffledns = pkgs.callPackage ../pkgs/shuffledns { };
         smartbrute = pkgs.callPackage ../pkgs/smartbrute { };
