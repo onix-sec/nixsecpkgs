@@ -50,6 +50,7 @@ To use packages defined in this repository.
 - [carbon14](https://github.com/Lazza/Carbon14)
 - [cmsmap](https://github.com/dionach/CMSmap)
 - [crackhound](https://github.com/trustedsec/CrackHound)
+- [delta](https://github.com/RedSiege/Delta-Encoder)
 - [dfscoerce](https://github.com/Wh04m1001/DFSCoerce)
 - [entropy](https://github.com/onix-sec/nixsecpkgs/blob/main/pkgs/entropy/src/entropy.py)
 - [finduncommonshares](https://github.com/p0dalirius/pyFindUncommonShares)

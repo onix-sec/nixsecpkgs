@@ -11,6 +11,7 @@
         carbon14 = pkgs.callPackage ../pkgs/carbon14 { };
         cmsmap = pkgs.callPackage ../pkgs/cmsmap { };
         crackhound = pkgs.callPackage ../pkgs/crackhound { };
+        delta = pkgs.callPackage ../pkgs/delta { };
         dfscoerce = pkgs.callPackage ../pkgs/dfscoerce { };
         entropy = pkgs.callPackage ../pkgs/entropy { };
         finduncommonshares = pkgs.callPackage ../pkgs/finduncommonshares { };
