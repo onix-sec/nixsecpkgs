@@ -52,6 +52,7 @@ To use packages defined in this repository.
 - [crackhound](https://github.com/trustedsec/CrackHound)
 - [delta](https://github.com/RedSiege/Delta-Encoder)
 - [dfscoerce](https://github.com/Wh04m1001/DFSCoerce)
+- [digdug](https://github.com/RedSiege/DigDug)
 - [entropy](https://github.com/onix-sec/nixsecpkgs/blob/main/pkgs/entropy/src/entropy.py)
 - [finduncommonshares](https://github.com/p0dalirius/pyFindUncommonShares)
 - [git-dumper](https://github.com/arthaud/git-dumper)

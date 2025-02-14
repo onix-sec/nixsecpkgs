@@ -13,6 +13,7 @@
         crackhound = pkgs.callPackage ../pkgs/crackhound { };
         delta = pkgs.callPackage ../pkgs/delta { };
         dfscoerce = pkgs.callPackage ../pkgs/dfscoerce { };
+        digdug = pkgs.callPackage ../pkgs/digdug { };
         entropy = pkgs.callPackage ../pkgs/entropy { };
         finduncommonshares = pkgs.callPackage ../pkgs/finduncommonshares { };
         git-dumper = pkgs.callPackage ../pkgs/git-dumper { };
