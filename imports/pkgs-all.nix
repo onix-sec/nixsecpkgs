@@ -31,6 +31,7 @@
         hashonymize = pkgs.callPackage ../pkgs/hashonymize { };
         homoglyph = pkgs.callPackage ../pkgs/homoglyph { };
         jackit = pkgs.callPackage ../pkgs/jackit { };
+        jargon = pkgs.callPackage ../pkgs/jargon { };
         keyt = pkgs.callPackage ../pkgs/keyt { };
         kube-secrets-dump = pkgs.callPackage ../pkgs/kube-secrets-dump { };
         macro_pack = pkgs.callPackage ../pkgs/macro_pack { };
