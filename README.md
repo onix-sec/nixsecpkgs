@@ -71,6 +71,7 @@ To use packages defined in this repository.
 - [homoglyph](https://github.com/onix-sec/nixsecpkgs/blob/main/pkgs/homoglyph/src/homoglyph.py)
 - [jackit](https://github.com/insecurityofthings/jackit)
 - [jargon](https://github.com/RedSiege/jargon)
+- [jigsaw](https://github.com/RedSiege/Jigsaw)
 - [keyt](https://github.com/deoktr/keyt)
 - [kube-secrets-dump](https://github.com/deoktr/kube_secrets_dump)
 - [macro_pack](https://github.com/sevagas/macro_pack)
