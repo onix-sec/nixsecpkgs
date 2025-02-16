@@ -6,13 +6,14 @@
 
 python3Packages.buildPythonApplication rec {
   pname = "pof";
-  version = "1.4.3";
+  version = "1.5.1";
+  pyproject = true;
 
   src = fetchFromGitHub {
     owner = "deoktr";
     repo = "pof";
     rev = version;
-    hash = "sha256-JLrggvN+hsMDGmi4+q+7heaeIEGsYr0RXmhTCXmCWF4=";
+    hash = "sha256-Fxexic9obY7WToeEVYMhNQC+MydtBe+iT3ILt7IIjrA=";
   };
 
   build-system = with python3Packages; [
