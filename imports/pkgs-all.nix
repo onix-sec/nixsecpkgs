@@ -12,6 +12,7 @@
         cmsmap = pkgs.callPackage ../pkgs/cmsmap { };
         crackhound = pkgs.callPackage ../pkgs/crackhound { };
         delta = pkgs.callPackage ../pkgs/delta { };
+        deoptimizer = pkgs.callPackage ../pkgs/deoptimizer { };
         dfscoerce = pkgs.callPackage ../pkgs/dfscoerce { };
         digdug = pkgs.callPackage ../pkgs/digdug { };
         entropy = pkgs.callPackage ../pkgs/entropy { };
