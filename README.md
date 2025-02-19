@@ -77,6 +77,7 @@ To use packages defined in this repository.
 - [kube-secrets-dump](https://github.com/deoktr/kube_secrets_dump)
 - [macro_pack](https://github.com/sevagas/macro_pack)
 - [pof](https://github.com/deoktr/pof)
+- [pyembed](https://github.com/deoktr/pyembed)
 - [pywhisker](https://github.com/ShutdownRepo/pywhisker)
 - [robotstester](https://github.com/p0dalirius/robotstester)
 - [shcln](https://github.com/deoktr/shcln)

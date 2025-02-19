@@ -38,6 +38,7 @@
         kube-secrets-dump = pkgs.callPackage ../pkgs/kube-secrets-dump { };
         macro_pack = pkgs.callPackage ../pkgs/macro_pack { };
         pof = pkgs.callPackage ../pkgs/pof { };
+        pyembed = pkgs.callPackage ../pkgs/pyembed { };
         pywhisket = pkgs.callPackage ../pkgs/pywhisker { };
         robotstester = pkgs.callPackage ../pkgs/robotstester { };
         shcln = pkgs.callPackage ../pkgs/shcln { };
