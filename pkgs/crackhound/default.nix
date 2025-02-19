@@ -4,7 +4,7 @@
   fetchFromGitHub,
 }:
 
-python3Packages.buildPythonApplication rec {
+python3Packages.buildPythonApplication {
   pname = "crackhound";
   version = "3029bc2";
 
@@ -22,24 +22,10 @@ python3Packages.buildPythonApplication rec {
 
   dependencies = with python3Packages; [ neo4j ];
 
-  preBuild = ''
-    cat > setup.py << EOF
-    from setuptools import setup
-
-    with open('requirements.txt') as f:
-        install_requires = f.read().splitlines()
-
-    setup(
-      name='${pname}',
-      install_requires=install_requires,
-      scripts=['crackhound.py'],
-      entry_points={'console_scripts': ['crackhound=crackhound:main']},
-    )
-    EOF
-  '';
-
-  postInstall = ''
-    mv -v $out/bin/crackhound.py $out/bin/crackhound
+  format = "other";
+  dontUnpack = true;
+  installPhase = ''
+    install -Dm755 $src/crackhound.py $out/bin/crackhound
   '';
 
   meta = {

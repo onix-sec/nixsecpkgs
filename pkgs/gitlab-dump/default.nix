@@ -4,7 +4,7 @@
   fetchFromGitHub,
 }:
 
-python3Packages.buildPythonApplication rec {
+python3Packages.buildPythonApplication {
   pname = "gitlab-dump";
   version = "5971892";
 
@@ -15,32 +15,14 @@ python3Packages.buildPythonApplication rec {
     hash = "sha256-iEB024xo156wsugzeLqw2oppj567+pL16IoHlqfPnY4=";
   };
 
-  build-system = with python3Packages; [
-    setuptools
-    wheel
-  ];
-
   dependencies = with python3Packages; [
     python-gitlab
   ];
 
-  preBuild = ''
-    cat > setup.py << EOF
-    from setuptools import setup
-
-    with open('requirements.txt') as f:
-        install_requires = f.read().splitlines()
-
-    setup(
-      name='${pname}',
-      install_requires=install_requires,
-      scripts=['main.py'],
-    )
-    EOF
-  '';
-
-  postInstall = ''
-    mv -v $out/bin/main.py $out/bin/gitlab-dump
+  format = "other";
+  dontUnpack = true;
+  installPhase = ''
+    install -Dm755 $src/main.py $out/bin/gitlab-dump
   '';
 
   meta = {

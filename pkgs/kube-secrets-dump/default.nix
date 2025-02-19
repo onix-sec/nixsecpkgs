@@ -4,7 +4,7 @@
   fetchFromGitHub,
 }:
 
-python3Packages.buildPythonApplication rec {
+python3Packages.buildPythonApplication {
   pname = "kube-secrets-dump";
   version = "745e403";
 
@@ -20,19 +20,10 @@ python3Packages.buildPythonApplication rec {
     wheel
   ];
 
-  preBuild = ''
-    cat > setup.py << EOF
-    from setuptools import setup
-
-    setup(
-      name='${pname}',
-      scripts=['main.py'],
-    )
-    EOF
-  '';
-
-  postInstall = ''
-    mv -v $out/bin/main.py $out/bin/${pname}
+  format = "other";
+  dontUnpack = true;
+  installPhase = ''
+    install -Dm755 $src/main.py $out/bin/kube-secrets-dump
   '';
 
   meta = {

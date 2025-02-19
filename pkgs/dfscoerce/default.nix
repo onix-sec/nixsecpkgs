@@ -1,6 +1,6 @@
 { python3Packages, fetchFromGitHub }:
 
-python3Packages.buildPythonApplication rec {
+python3Packages.buildPythonApplication {
   pname = "dfscoerce";
   version = "1.0.0";
 
@@ -18,20 +18,10 @@ python3Packages.buildPythonApplication rec {
 
   dependencies = with python3Packages; [ impacket ];
 
-  preBuild = ''
-    cat > setup.py << EOF
-    from setuptools import setup
-
-    setup(
-      name='${pname}',
-      scripts=['dfscoerce.py'],
-      entry_points={'console_scripts': ['dfscoerce=dfscoerce:main']},
-    )
-    EOF
-  '';
-
-  postInstall = ''
-    mv -v $out/bin/dfscoerce.py $out/bin/dfscoerce
+  format = "other";
+  dontUnpack = true;
+  installPhase = ''
+    install -Dm755 $src/dfscoerce.py $out/bin/dfscoerce
   '';
 
   meta = {

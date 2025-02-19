@@ -1,6 +1,6 @@
 { python3Packages, fetchFromGitHub }:
 
-python3Packages.buildPythonApplication rec {
+python3Packages.buildPythonApplication {
   pname = "finduncommonshares";
   version = "3.2";
 
@@ -24,23 +24,10 @@ python3Packages.buildPythonApplication rec {
     dnspython
   ];
 
-  preBuild = ''
-    cat > setup.py << EOF
-    from setuptools import setup
-
-    with open('requirements.txt') as f:
-        install_requires = f.read().splitlines()
-
-    setup(
-      name='${pname}',
-      install_requires=install_requires,
-      scripts=['FindUncommonShares.py'],
-    )
-    EOF
-  '';
-
-  postInstall = ''
-    mv -v $out/bin/FindUncommonShares.py $out/bin/finduncommonshares
+  format = "other";
+  dontUnpack = true;
+  installPhase = ''
+    install -Dm755 $src/FindUncommonShares.py $out/bin/finduncommonshares
   '';
 
   meta = {

@@ -8,9 +8,6 @@ python3Packages.buildPythonApplication {
   pname = "gpp-decrypt";
   version = "1.0";
 
-  # Fix PEP 517 error
-  format = "pyproject";
-
   src = fetchFromGitHub {
     owner = "t0thkr1s";
     repo = "gpp-decrypt";
@@ -28,25 +25,10 @@ python3Packages.buildPythonApplication {
     colorama
   ];
 
-  preBuild = ''
-    cat > setup.py << EOF
-    from setuptools import find_packages, setup
-
-    setup(
-        name='gpp-decrypt',
-        version='1.0',
-        author='Kristof Toth',
-        author_email='t0thkr1s@icloud.com',
-        description='Tool to parse the Group Policy Preferences XML file which '
-                    'extracts the username and decrypts the cpassword attribute.',
-        install_requires=['pycrypto', 'colorama'],
-        scripts=['gpp-decrypt.py'],
-    )
-    EOF
-  '';
-
-  postInstall = ''
-    mv -v $out/bin/gpp-decrypt.py $out/bin/gpp-decrypt
+  format = "other";
+  dontUnpack = true;
+  installPhase = ''
+    install -Dm755 $src/gpp-decrypt.py $out/bin/gpp-decrypt
   '';
 
   meta = {

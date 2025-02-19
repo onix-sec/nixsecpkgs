@@ -4,12 +4,9 @@
   fetchFromGitHub,
 }:
 
-python3Packages.buildPythonApplication rec {
+python3Packages.buildPythonApplication {
   pname = "gmsadumper";
   version = "e03187c";
-
-  # Fix PEP 517 error
-  format = "pyproject";
 
   src = fetchFromGitHub {
     owner = "micahvandeusen";
@@ -59,23 +56,10 @@ python3Packages.buildPythonApplication rec {
     six
   ];
 
-  preBuild = ''
-    cat > setup.py << EOF
-    from setuptools import setup
-
-    with open('requirements.txt') as f:
-        install_requires = f.read().splitlines()
-
-    setup(
-      name='${pname}',
-      install_requires=install_requires,
-      scripts=['gMSADumper.py'],
-    )
-    EOF
-  '';
-
-  postInstall = ''
-    mv -v $out/bin/gMSADumper.py $out/bin/gmsadumper
+  format = "other";
+  dontUnpack = true;
+  installPhase = ''
+    install -Dm755 $src/gMSADumper.py $out/bin/gmsadumper
   '';
 
   meta = {

@@ -4,7 +4,7 @@
   fetchFromGitHub,
 }:
 
-python3Packages.buildPythonApplication rec {
+python3Packages.buildPythonApplication {
   pname = "carbon14";
   version = "74305fc";
 
@@ -30,23 +30,10 @@ python3Packages.buildPythonApplication rec {
     tzlocal
   ];
 
-  preBuild = ''
-    cat > setup.py << EOF
-    from setuptools import setup
-
-    with open('requirements.txt') as f:
-        install_requires = f.read().splitlines()
-
-    setup(
-      name='${pname}',
-      install_requires=install_requires,
-      scripts=['carbon14.py'],
-    )
-    EOF
-  '';
-
-  postInstall = ''
-    mv -v $out/bin/carbon14.py $out/bin/carbon14
+  format = "other";
+  dontUnpack = true;
+  installPhase = ''
+    install -Dm755 $src/carbon14.py $out/bin/carbon14
   '';
 
   meta = {
