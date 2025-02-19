@@ -78,6 +78,7 @@ To use packages defined in this repository.
 - [macro_pack](https://github.com/sevagas/macro_pack)
 - [pof](https://github.com/deoktr/pof)
 - [pyembed](https://github.com/deoktr/pyembed)
+- [pyline](https://github.com/deoktr/pyline)
 - [pywhisker](https://github.com/ShutdownRepo/pywhisker)
 - [robotstester](https://github.com/p0dalirius/robotstester)
 - [shcln](https://github.com/deoktr/shcln)

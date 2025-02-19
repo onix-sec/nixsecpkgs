@@ -39,6 +39,7 @@
         macro_pack = pkgs.callPackage ../pkgs/macro_pack { };
         pof = pkgs.callPackage ../pkgs/pof { };
         pyembed = pkgs.callPackage ../pkgs/pyembed { };
+        pyline = pkgs.callPackage ../pkgs/pyline { };
         pywhisket = pkgs.callPackage ../pkgs/pywhisker { };
         robotstester = pkgs.callPackage ../pkgs/robotstester { };
         shcln = pkgs.callPackage ../pkgs/shcln { };
